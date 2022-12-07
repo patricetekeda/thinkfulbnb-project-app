@@ -36,55 +36,40 @@
         <h2>Find the perfect vacation rental</h2>
         <!-- Create a form here -->
         <form>
-          <div class="group desktop-form-group">
-            <div class="form-group">
-              <label class="form-item" for="location">Location</label>
-              <input
-                class="form-item"
-                id="location"
-                type="text"
-                name="location"
-                placeholder="Search destination"
-              />
-            </div>
-
-            <div class="form-group">
-              <label class="form-item" for="arrive">Arrive</label>
-              <input class="form-item" id="arrive" type="date" name="arrival" />
-            </div>
-
-            <div class="form-group">
-              <label class="form-item" for="depart">Depart</label>
-              <input
-                class="form-item"
-                id="depart"
-                type="date"
-                name="departure"
-              />
-            </div>
-
-            <div class="form-group">
-              <label class="form-item" for="type">Type</label>
-              <select
-                class="form-item"
-                name="type of rental"
-                id="type"
-                size="1"
-              >
-                <option value="apartment">Apartment</option>
-                <option value="barn">Barn</option>
-                <option value="castle">Castle</option>
-                <option value="houseboat">Houseboat</option>
-                <option value="tiny house">Tiny House</option>
-                <option value="yacht">Yacht</option>
-                <option value="yurt">Yurt</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <button class="button-item" type="button">Search</button>
-            </div>
+          <div>
+            <label for="location">Location</label>
+            <input
+              type="text"
+              name="location"
+              id="location"
+              placeholder="Search destination"
+            />
           </div>
+
+          <div>
+            <label for="arrive">Arrive</label>
+            <input type="date" name="arrive" id="arrive" />
+          </div>
+
+          <div>
+            <label for="depart">Depart</label>
+            <input type="date" name="depart" id="depart" />
+          </div>
+
+          <div>
+            <label for="type">Type</label>
+            <select name="type" id="type">
+              <option>Apartment</option>
+              <option>Barn</option>
+              <option>Castle</option>
+              <option>Houseboat</option>
+              <option>Tiny</option>
+              <option>House</option>
+              <option>Yacht</option>
+              <option>Yurt</option>
+            </select>
+          </div>
+          <button>Search</button>
         </form>
       </section>
 
